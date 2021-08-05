@@ -67,7 +67,7 @@ class Generator:
 class Win:
 	def __init__(self):
 		pygame.init()
-
+		pygame.mixer.init()
 		# self.snd_win = pygame.mixer.Sound("sounds\\win.wav")
 		# self.snd_click = pygame.mixer.Sound("sounds\\click.ogg")
 		# self.snd_whip = pygame.mixer.Sound("sounds\\whip.ogg")
